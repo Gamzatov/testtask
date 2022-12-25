@@ -1,0 +1,80 @@
+.upload-image {
+    position: relative;
+}
+
+.label {
+    cursor: pointer;
+
+    height: 54px;
+    width: 100%;
+    min-width: 328px;
+    max-width: 380px;
+
+    display: flex;
+}
+
+.button {
+    height: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.87);
+    box-sizing: border-box;
+    border-radius: 4px 0px 0px 4px;
+
+    display: flex;
+    align-items: center;
+}
+
+.button-label {
+    height: 100%;
+    width: 100%;
+    border: 1px solid #d0cfcf;
+    box-sizing: border-box;
+    
+    border-radius: 0 4px 4px 0;
+    border-left: none;
+
+    display: flex;
+    align-items: center;
+}
+
+.text {
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.text_default {
+    color: #7E7E7E;
+}
+
+.text_selected {
+    color: rgba(0, 0, 0, 0.87);
+}
+
+.border-error {
+    border-color: #CB3D40;
+}
+
+.error {
+    position: absolute;
+    padding: 0 5px;
+
+    left: 11px;
+    bottom: -18px;
+
+    font-size: 12px;
+    line-height: 14px;
+    background-color: inherit;
+
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: 400;
+
+    color: #7e7e7e;
+}
+
+.error_color {
+    color: #CB3D40;
+}
+
+.error_border {
+    border: #CB3D40 1px solid;
+}
